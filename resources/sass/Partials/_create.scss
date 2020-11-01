@@ -1,0 +1,14 @@
+.create {
+    &__form {
+        @include my-display-flex (column, center, center);
+    }
+    &__field {
+        width: 300px;
+        @include my-display-flex (row, space-between, center);
+        margin: 5px 0;
+    }
+    &__submit {
+        margin-top: 10px;
+    }
+
+}

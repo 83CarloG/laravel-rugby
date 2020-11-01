@@ -1,0 +1,9 @@
+.show {
+    &__button {
+        @include my-display-flex(row, flex-start, center);
+
+        & > form {
+            margin-right: 10px;
+        }
+    }
+}

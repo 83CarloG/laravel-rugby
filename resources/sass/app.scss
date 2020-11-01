@@ -1,0 +1,19 @@
+@import 'Partials/_variables';
+@import 'Partials/_mixins';
+@import 'Partials/_common';
+// Header
+@import 'Partials/_header';
+//Footer
+@import 'Partials/_footer';
+//Index
+@import 'Partials/_index';
+//Create
+@import 'Partials/_create';
+//Show
+@import 'Partials/show';
+
+// Font Awesome
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+@import '~@fortawesome/fontawesome-free/scss/regular';
+@import '~@fortawesome/fontawesome-free/scss/solid';
+@import '~@fortawesome/fontawesome-free/scss/brands';

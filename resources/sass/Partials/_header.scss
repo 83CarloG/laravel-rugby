@@ -1,0 +1,21 @@
+.header {
+    margin: 10px;
+    height: 150px;
+    &__title {
+        text-align: center;
+        padding: 30px 0;
+    }
+    &__button {
+        @include my-display-flex(row, center, center);
+        text-align: center;
+    }
+    &__link {
+        text-decoration: none;
+        color: red;
+        margin: 0 10px;
+    }
+}
+
+.header > .container {
+    border: 1px solid blue;
+}
